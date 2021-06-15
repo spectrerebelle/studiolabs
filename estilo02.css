@@ -1,0 +1,137 @@
+/*--ESTRUTURAL--*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fbfdfa;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*--TOPO--*/
+#brandlogo {
+  position: absolute;
+  width: 206px;
+  height: 50px;
+  left: 51px;
+  top: 50px;
+}
+
+#brandlogo h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.navlinks {
+  position: absolute;
+  width: 364px;
+  height: 20px;
+  left: 503px;
+  top: 69px;
+  align-items: center;
+  text-align: center;
+}
+
+.navlinks li {
+  display: inline-flex;
+  list-style: none;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: black;
+}
+
+.area-login {
+  position: absolute;
+  width: 234px;
+  height: 41px;
+  left: 1162px;
+  top: 43px;
+  align-items: center;
+  text-align: center;
+}
+
+.area-login li {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.area-login li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: black;
+}
+
+.moldura-login {
+  position: absolute;
+  width: 107px;
+  height: 41px;
+  left: 1289px;
+  top: 43px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+/*--CONTEUDO--*/
+img {
+  position: absolute;
+  width: 536px;
+  height: 730px;
+  left: 799px;
+  top: 153px;
+}
+
+.titulo-grande {
+  position: absolute;
+  width: 489px;
+  height: 168px;
+  left: 115px;
+  top: 267px;
+}
+
+.titulo-grande h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 56px;
+  color: black;
+}
+
+.texto-menor {
+  position: absolute;
+  width: 426px;
+  height: 87px;
+  left: 115px;
+  top: 479px;
+}
+
+.texto-menor p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+}
+
+/*--NEWSLETTER--*/
+.newsletter {
+  position: absolute;
+  width: 458px;
+  height: 31px;
+  left: 99px;
+  top: 772px;
+}
